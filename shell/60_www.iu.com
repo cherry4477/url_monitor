@@ -1,4 +1,3 @@
-#!/bin/bash
 metric="metricname"
 host=`hostname`
 ts=`date +%s`
