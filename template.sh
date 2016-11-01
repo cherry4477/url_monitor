@@ -13,4 +13,4 @@ if [ $res -eq "000" ]; then
     res=0
 fi
 echo $res
-send "url:"$metric  $host $ts $res
+send $metric  $host $ts $res
