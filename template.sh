@@ -13,4 +13,4 @@ if [ $res -eq "000" ]; then
     res=0
 fi
 echo $res
-send $metric  $host $ts $res
+send "url-monitor:"$metric  $host $ts $res
