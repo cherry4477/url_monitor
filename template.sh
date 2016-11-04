@@ -1,6 +1,6 @@
 #!/bin/bash
 metric="metricname"
-host=`hostname`
+host="of-url-monitior"
 ts=`date +%s`
 url="urlname"
 
